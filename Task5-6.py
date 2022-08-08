@@ -16,5 +16,9 @@ if dif > 0:
     print(f"Рентабельность компании:{rent}")
     pers_rent = profit/num_emloyee
     print(f"Выручка на одного сотрудника:{pers_rent}")
+
+elif dif == 0:
+    print(f"Выдержка и издержки компании равны. Надо бы поработать получше")
+
 else:
     print(f"Потери компании составляют:{dif}")
